@@ -1,0 +1,77 @@
+#content {
+  /* padding: 80px 200px; */
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.sectionHeader {
+  padding-bottom: 42px;
+  height:80px;
+}
+.sectiontitle {
+  font-family: "NTR", sans-serif;
+  color: #ccd6f6;
+  font-size: 46px;
+  font-weight: bold;
+  color: #ccd6f6;
+}
+
+.divideLine {
+  height: 1px;
+  width: 300px;
+  background-color: #233554;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 39px;
+  /* line-height: px; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .App{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 24px;
+  }
+
+  #content {
+    padding: 10px 10px;
+    width: 100%;
+  }
+
+  .sectionHeader {
+    width: unset;
+  }
+  .divideLine {
+    display: none;
+  }
+
+  .sectiontitle {
+    font-size: 32px;
+  }
+
+}
+
+
+
+
