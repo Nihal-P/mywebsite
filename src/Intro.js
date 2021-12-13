@@ -17,7 +17,7 @@ const Intro = () => {
             Over the period of time I have developed niche skills of using google and stack-overflow which helped me <span className="strikedout">survive</span> grow.
             </div>
             <FadeInSection>
-                <a href="/" className="emailink"><EmailRoundedIcon style={{fontSize:25, color:"#64ffda"}}></EmailRoundedIcon><span className="contact-text">&#8205; Say hello</span></a>
+                <a href="mailto:nihalpatelwork@gmail.com" className="emailink"><EmailRoundedIcon style={{fontSize:25, color:"#64ffda"}}></EmailRoundedIcon><span className="contact-text">&#8205; Say hello</span></a>
             </FadeInSection>
         </div>
      );
